@@ -6,6 +6,7 @@
 <title>MOA — Moamine Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -21,7 +22,7 @@
     height: 100%;
     background: var(--bg);
     color: var(--ink);
-    font-family: 'DM Mono', monospace;
+    font-family: 'Satoshi', 'DM Mono', monospace;
     overflow: hidden;
     cursor: none;
   }
@@ -376,7 +377,7 @@
     <div class="hero-bg-text">SYSTEM</div>
     <div class="hero-accent-line"></div>
     <div class="hero-main">
-      <div class="status-badge"><div class="status-dot"></div>Selective intake open — 2025</div>
+      <div class="status-badge"><div class="status-dot"></div>Selective intake open — 2026</div>
       <div class="hero-eyebrow">
         <div class="hero-eyebrow-dot"></div>
         <span class="hero-eyebrow-text">Brand & UX System Design</span>
@@ -526,12 +527,11 @@
       </div>
       <div>
         <div class="contact-email-label">Get in touch</div>
-        <a class="contact-email" href="mailto:hello@moamine.co">hello@moamine.co</a>
+        <a class="contact-email" href="mailto:medaminostestouri@gmail.com">medaminostestouri@gmail.com</a>
         <div class="contact-links">
           <a class="contact-link" href="#" data-page="work"><span class="contact-link-name">View Work</span><span class="contact-link-arrow">↗</span></a>
-          <a class="contact-link" href="#"><span class="contact-link-name">LinkedIn</span><span class="contact-link-arrow">↗</span></a>
-          <a class="contact-link" href="#"><span class="contact-link-name">Dribbble</span><span class="contact-link-arrow">↗</span></a>
-          <a class="contact-link" href="#"><span class="contact-link-name">Read.cv</span><span class="contact-link-arrow">↗</span></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/testouri-mohamed-amine-320222345/" target="_blank"><span class="contact-link-name">LinkedIn</span><span class="contact-link-arrow">↗</span></a>
+          <a class="contact-link" href="tel:+21697494493"><span class="contact-link-name">+216 97 494 493</span><span class="contact-link-arrow">↗</span></a>
         </div>
         <div class="contact-note">"If a situation is not covered, pause — then extend the system. Consistency compounds authority."</div>
       </div>
@@ -577,15 +577,4 @@
       overlay.className = 'transition-overlay slide-out';
       overlay.addEventListener('animationend', function h2(){
         overlay.removeEventListener('animationend', h2);
-        overlay.className = 'transition-overlay';
-      });
-    });
-  }
-
-  // Bind clicks
-  document.querySelectorAll('[data-page]').forEach(el=>{
-    el.addEventListener('click', e=>{ e.preventDefault(); if(el.dataset.page) goTo(el.dataset.page); });
-  });
-</script>
-</body>
-</html>
+        overlay.className = 'transition-overlay
